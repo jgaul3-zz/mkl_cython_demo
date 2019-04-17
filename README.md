@@ -26,9 +26,9 @@ to run it.
 The flags in setup.py are very definitely excessive, most of them could be deleted without consequence.
 Another potential improvement is to automatically set the number of cores using 
 
-import mkl
+> import mkl
 
-mkl.get_max_threads()
-mkl.set_num_threads(2)
+> mkl.get_max_threads()
+> mkl.set_num_threads(2)
 
 in python.
